@@ -1,0 +1,173 @@
+header{
+    display: flex;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+    .header{
+        display: flex;
+        gap: 20px;
+        .fa-solid{
+            padding-right: 10px;
+        }
+        margin-right: 65%;
+    }
+}
+main{
+    display: flex;
+    .main-left {
+        background-color: rgb(35, 35, 35);
+        width: 17%;
+        min-height: 92.4vh;
+        overflow: hidden; 
+        .main-left-NewItem {
+            margin-left: 10%;
+            margin-top: 5%;
+            padding: 10px;
+            width: 80%;
+            border-radius: 4px;
+            background-color: white;
+            margin-bottom: 15px;
+        }
+        .main-left-child-text{
+            color: white;
+            margin-left: 20%;
+            margin-bottom: 10px;
+        }
+        .main-left-child{
+            border-top: 1px black solid;
+            color: white;
+            padding: 15px;
+            padding-left: 25px;
+            margin-bottom: 0px;
+            .main-left-grandchildren1{
+                margin-right: 10px;
+            }
+            .main-left-grandchildren2 {
+                display: flex;
+                justify-content: end;
+                margin-top: -20px;
+            }
+        }
+    }
+    .main-right{
+        background-color: rgb(250, 246, 240);
+        width: 100%;
+        .main-right-header{
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            padding: 10px;
+            .main-right-header-child{
+                .main-right-header-child-text{
+                    font-weight: bold;
+                }
+                display: flex;
+                gap: 30px;
+                padding: 15px;
+            }
+            .main-right-header-child2{
+                display: flex;
+                .main-right-header-child2__input{
+                    border: 1px black solid;
+                    width: 350px;
+                    height: 35px;
+                    border-radius: 4px;
+                    padding-left: 10px;
+                    margin-left: 500px;
+                    margin-top: 10px;
+                }
+                .fa-magnifying-glass{
+                    margin-top: 20px;
+                    margin-left: -25px;
+                }
+            }
+        }
+        .main-right-bot{
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            .main-right-bot-child{
+                display: flex;
+                background-color: rgb(255, 255, 255);
+                padding: 15px;
+                padding-left: 25px;
+                padding-right: 132px;
+                border-radius: 4px;
+                .fa-cart-shopping{
+                    margin-top: 20px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .main-right-main{
+            border-radius: 4px;
+            margin-left: 60px;
+            margin-right: 60px;
+            background-color: white;
+            padding: 20px;
+            .main-right-main-text{
+                font-weight: bold;
+            }
+            .main-right-main-warning{
+                margin-top: 15px;
+                border: 2px rgb(255, 159, 159) solid;
+                padding: 5px; 
+                padding-left: 15px;
+                color: rgb(149, 1, 1);
+                background-color: rgb(255, 232, 232);
+                border-radius: 4px;
+            }
+            table{
+                margin-top: 15px;
+                border-radius: 4px;
+                border: 2px solid rgb(206, 206, 206);
+            }
+            table tr td{
+                border: 2px solid rgb(219, 219, 219);
+                padding: 5px;
+                padding-left: 15px;                
+                padding-right: 153px;
+            }
+            .text{
+                font-weight: bold;
+            }
+            .main-right-main-edit{
+                background-color: rgb(139, 44, 255);
+                padding: 5px;
+                border-radius: 4px;
+            }
+            .main-right-main-delete{
+                border-radius: 4px;
+                background-color: rgb(255, 197, 4);
+                margin-left: 20px;
+                padding: 5px;
+            }
+            .main-right-main-number{
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                gap: 5px;
+                .fa-solid{
+                    margin-top: 10px;
+                }
+                .main-right-main-number-child{
+                    border: 1px rgb(137, 137, 137) solid;
+                    padding: 5px;
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    border-radius: 4px;
+                }
+                .main-right-main-number-child2{
+                    border: 1px rgb(137, 137, 137) solid;
+                    padding: 5px;
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    border-radius: 4px;
+                    color: white;
+                    background-color: rgb(139, 44, 255);
+                }
+            }
+        }
+    }
+}
